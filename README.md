@@ -168,3 +168,15 @@ php artisan test
 </aside>
 
 ### ✅ Excepted outcome
+# Excepted outcome
+```powershell
+PASS  Tests\Unit\BidTest
+✓ bid post
+✓ bid post with users notification
+✓ bid post with 3 decimal price
+✓ bid post price empty
+✓ bid post lower price
+
+  Tests:  5 passed
+  Time:   17.94s
+  ```
