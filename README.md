@@ -6,7 +6,7 @@
 
 **Assessment Duration**
 
-Examinee is given 2 days to complete the assessment. For any questions regarding the exam please send inquiry to [jiajun-ong@alphacloud.com.my](mailto:jonathan@ssagroup.com) or HR.
+Examinee is given 2 days to complete the assessment. For any questions regarding the exam please send inquiry to [hr@alphacloud.com.my](mailto:hr@alphacloud.com.my) or [jiajun-ong@alphacloud.com.my](mailto:jiajun-ong@alphacloud.com.my).
 
 ### 🪄 **Steps to Replicate**
 
