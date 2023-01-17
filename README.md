@@ -53,7 +53,7 @@ Here is an example of a bid JSON object:
 ```json
 {
     "user_id": 1,
-    "price": 200.00 // 2 decimal is required
+    "price": 200.00 // two decimal is required
 }
 ```
 
@@ -77,7 +77,7 @@ You are provided with the implementation of the Bid model. The task is to implem
         "message": "....",
         "errors": {
             "price": [
-                "The bid price cannot be lower than 20.00" // 2 decimal is required
+                "The bid price cannot be lower than 20.00" // two decimal is required
             ]
         }
     }
@@ -91,7 +91,7 @@ You are provided with the implementation of the Bid model. The task is to implem
     "message": "Success",
     "data": {
         "full_name": "Ethel Willms", // user.first_name + user.last_name
-        "price": "23.00" // 2 decimal is required
+        "price": "23.00" // two decimal is required
     }
 }
 ```
@@ -121,9 +121,12 @@ In this challenge, your task is to implement a simple notification to notify all
 
 - [ ]  Implement an event called `BidSaved` triggered when a bid is created.
 - [ ]  Implement a listener that auto-notify all user when the `BidSaved`event is triggered.
-- [ ]  Generate a table called `notifications` to store the following keys.
-    - `notifiable_id`:  Integer
-    - `data`:  Text
+- [ ]  Run following command to create a table called `notifications`
+    
+    ```terminal
+    php artisan notifications:table
+    php artisan migrate
+    ```
 
 ### 📃 Instruction
 
@@ -136,8 +139,8 @@ Each user notification will store the following keys:
     
     ```json
     {
-    	"latest_bid_price": "854.25", // 2 decimal is required
-    	"user_last_bid_price": "614.75" // 2 decimal is required
+    	"latest_bid_price": "854.25", //two decimal is required
+    	"user_last_bid_price": "614.75" //two decimal places is required
     }
     ```
     
@@ -169,7 +172,7 @@ php artisan test
 
 ### ✅ Excepted outcome
 # Excepted outcome
-```powershell
+```terminal
 PASS  Tests\Unit\BidTest
 ✓ bid post
 ✓ bid post with users notification
