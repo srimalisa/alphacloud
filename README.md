@@ -8,6 +8,13 @@
 
 Examinee is given 2 days to complete the assessment. For any questions regarding the exam please send inquiry to [hr@alphacloud.com.my](mailto:hr@alphacloud.com.my) or [jiajun-ong@alphacloud.com.my](mailto:jiajun-ong@alphacloud.com.my).
 
+### 💻 Local Environment Requirements
+
+---
+
+- PHP Version > 8
+- Laravel 9
+
 ### 🪄 **Steps to Replicate**
 
 ---
@@ -26,15 +33,18 @@ Examinee is given 2 days to complete the assessment. For any questions regarding
     php artisan migrate
     php aritsan db:seed
     ```
-    
+    <aside>
+💡 `php aritsan db:seed` will generate 5000 users into the db. It might take some time to complete it.
+
+</aside>
 
 # 👨‍💻 Challenge
 
 ---
 
-**There are 2 challenge missions to complete in total. These 2 tasks do not require a user interface. Only Laravel logic is tested in this challenge.**
+**You are required to complete 2 challenging tasks. Both tasks does not require the use of user interface. Only Laravel logic is tested in this challenge.**
 
-## 📝 REST API
+## 📝 TASK 1: REST API
 
 In this challenge, your task is to implement a simple REST API for bidder to submit their bid.
 
@@ -104,7 +114,7 @@ You are provided with the implementation of the Bid model. The task is to implem
 - [ ]  Implement a Service Pattern.
 - [ ]  Implement a model accessor.
 
-## 📢 Notification
+## 📢 TASK 2: Notification
 
 ---
 
