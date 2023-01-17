@@ -161,7 +161,8 @@ Each user notification will store the following keys:
 
 ---
 
-- [ ]  Implement an event listener for the model, such as create, delete or update.
+- [ ]  Implement an event listener for the model, such as created.
+- [ ]  Ensure your API can respond with blazing speed.
 
 # 🏆 Outcome
 
