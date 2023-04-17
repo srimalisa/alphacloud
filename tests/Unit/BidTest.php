@@ -6,8 +6,16 @@ use App\Http\Controllers\Api\BidController;
 use App\Models\Bid;
 use App\Models\User;
 use Tests\TestCase;
-use Illuminate\Support\Arr;
-use App\Models\Article;
+
+/*
+  |--------------------------------------------------------------------------
+  | ⛔⛔ EDITING OF ANY CODE UNDER THIS SECTION IS PROHIBITED ⛔⛔
+  |--------------------------------------------------------------------------
+  |
+  | Once found, the eligibility for further application will be cancelled.
+  | Do your best to fulfill any custom validation output required by the test case.
+  |
+  */
 
 class BidTest extends TestCase
 {
